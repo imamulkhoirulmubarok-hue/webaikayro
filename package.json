@@ -1,20 +1,20 @@
 {
   "name": "webaikayro",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/imamulkhoirulmubarok-hue/webaikayro.git"
+  "dependencies": {
+    "next": "15.3.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/imamulkhoirulmubarok-hue/webaikayro/issues"
-  },
-  "homepage": "https://github.com/imamulkhoirulmubarok-hue/webaikayro#readme"
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "@types/react": "19.1.8",
+    "@types/node": "22.15.0"
+  }
 }
